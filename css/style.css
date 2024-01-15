@@ -248,7 +248,6 @@ button:focus {
 }
 
 .skills__tools {
-  .skills__etc;
   padding: 1rem;
 }
 
@@ -256,4 +255,27 @@ button:focus {
   background-color: var(--color-primary);
   filter: brightness(150%);
   padding: 1rem;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0, 5rem;
+}
+
+.bar__matadata {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar__bg {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-primary-variant);
+}
+
+.bar__value {
+  background-color: var(--color-accent);
+  height: 3px;
 }
