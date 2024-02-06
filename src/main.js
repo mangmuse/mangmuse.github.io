@@ -1,3 +1,5 @@
+"use strict";
+
 const header = document.querySelector(".header");
 const home = document.querySelector(".home__container");
 const arrow = document.querySelector(".arrow-up");
